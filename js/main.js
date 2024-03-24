@@ -96,6 +96,10 @@ window.addEventListener('DOMContentLoaded', async () => {
     updatePageContent();
   });
 
+  window.addEventListener('touchmove', function(e) {
+    e.preventDefault(); // スクロールを無効にする
+  }, { passive: false });
+
   updateItemsPerPage();
   updatePageContent();
   updatePageButtons(); // ページボタンの更新
