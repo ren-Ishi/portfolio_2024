@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOZOKI</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/gallery.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@500&family=Noto+Sans+JP&display=swap"
+    rel="stylesheet">
+  <script src="../js/main.js"></script>
+  <link rel="stylesheet" href="../css/nazoki.css">
+  <link rel="shortcut icon" href="../img/icon.png">
+</head>
+
+<body>
+  <div id="container">
+    <h2>gallery</h2>
+    <main>
+      <section id="galleryTop">
+      </section>
+    </main>
+    <div id="pagination"></div>
+
+    <div id="fixed_area">
+      <a href="../index.html#TOP"><img src="../img/logo.svg" alt="logo"></a>
+      <nav>
+        <a href="../index.html#gallery">< back to home</a>
+      </nav>
+      <label for="hintBtn">
+        <input type="checkbox" id="hintBtn" style="display:none;">
+        <div id="hint_area">
+          <span></span><span></span>
+          <p>メニューは左下デスヨ。</p>
+        </div>
+      </label>
+      <div id="nazoki_area">
+        <svg xmlns="http://www.w3.org/2000/svg" width="229px" height="150px">
+          <g class="nazoki_01">
+            <circle cx="25" cy="126" r="24" class="n_body" />
+            <circle cx="25" cy="124" r="17" class="n_weye" />
+            <circle cx="27" cy="122" r="8" class="n_beye" />
+          </g>
+          <g class="nazoki_02">
+            <circle cx="85" cy="126" r="24" class="n_body" />
+            <circle cx="85" cy="124" r="17" class="n_weye" />
+            <circle cx="82" cy="129" r="8" class="n_beye" />
+            <path d="M61 126 A24 24 0 0 1 109 126" class="n_body" />
+          </g>
+          <g class="nazoki_03">
+            <circle cx="145" cy="126" r="24" class="n_body" />
+            <circle cx="145" cy="124" r="17" class="n_weye" />
+            <path d="M145 136 Q135 132,133 124 A4 5 0 0 1 145 120 A4 5 0 0 1 157 124 Q155 132,145 136" class="n_beye" />
+          </g>
+          <g class="nazoki_04">
+            <circle cx="205" cy="126" r="24" class="n_body" />
+            <circle cx="205" cy="124" r="17" class="n_weye" />
+            <circle cx="205" cy="126" r="8" class="n_beye" clip-path="url(#clip)" />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+
+  </div>
+  <footer>
+    <p>NOZOKI ©︎IshikawaRena</p>
+  </footer>
+</body>
+
+</html>

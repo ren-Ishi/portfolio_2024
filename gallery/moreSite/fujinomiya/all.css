@@ -1,0 +1,266 @@
+*{
+  width:auto;
+  margin:0px auto;
+  overflow: hidden;
+}
+body{
+  font-family: 筑紫B丸ゴシック;
+}
+nav{
+  background-color: #2a2a2a;
+  height: 60px;
+}
+nav a{
+  font-family: ヒラギノ明朝 ProN;
+  color: #999;
+  float: right;
+  padding: 13px 20px;
+  border-left: solid 1px #999;
+}
+nav a:hover{
+  color: #2a2a2a;
+  background-color: #999;
+}
+a{
+  text-decoration: none;
+  font-size: 140%;
+}
+h1{
+  margin: 140px 140px 40px 140px;
+  font-family: ヒラギノ明朝 ProN;
+  font-weight: bold;
+  font-size: 600%;
+  text-align: center;
+  border-bottom: 3px solid;
+}
+h1.L1{
+    color: #003355;
+}
+h1.L2{
+  color:#351;
+}
+h1.L3{
+  color: #802;
+  font-size: 450%;
+}
+h1.L4{
+  color:#333;
+}
+h1.L0{
+  color:#64810a;
+}
+h1.L5{
+  color: #222;
+  font-size: 300%;
+}
+.harfL{
+  height:730px;
+  background-color: #ccc;
+  width: 50%;
+  float: left;
+}
+.SP{
+    background-color: #a90;
+}
+.SP h1{
+  color: #000;
+  background-color: #ccc;
+  box-shadow: 10px 10px;
+}
+.harf{
+  height: 50%;
+}
+.U{
+  background-color: #333;
+}
+.harfR{
+  height:730px;
+  width: 50%;
+  float: left;
+}
+.R1{
+    background-color: #005577;
+}
+.R2{
+  background-color: #573;
+}
+.R3{
+background-color: #c65;
+color: #a32;
+}
+.R4{
+background-color: #001a43;
+color: #a10c;
+}
+
+li{
+  list-style: none;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+ul{
+  margin-left: 30%;
+}
+.harfL a:link{
+  color: #000;
+}
+.harfL a:visited{
+  color: #000;
+}
+.harfL a:hover{
+  color: #d98800;
+  border-left: solid 5px;
+}
+.right{
+  background-color: #ccc;
+  writing-mode: vertical-rl;
+  margin: 160px 260px;
+  padding: 20px;
+  box-shadow: 10px 10px;
+}
+/*ここから説明ページ用に追加*/
+.exp p{
+  text-align: center;
+  font-size: 107%;
+}
+td{
+  padding: 10px;
+}
+td img{
+  height: 200px;
+}
+td h2{
+  font-weight:lighter;
+  margin-bottom: 20px;
+    background-color: #ccc;
+      box-shadow: 10px 10px;
+}
+
+.quartL{
+  height:730px;
+  background-color: #ccc;
+  width: 60%;
+  float: left;
+  text-align: center;
+  font-size: 150%;
+}
+.quartL td{
+  padding-top: 60px;
+}
+.quartL img{
+  width: 80%;
+    height: 80%;
+}
+
+.quartR{
+  background-color: #aaa;
+  float: left;
+}
+.quartR img{
+  width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+.quartR h3{
+  background-color: #ccc;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 10px 10px;
+}
+.Pbox{
+  height: 730px;
+}
+.Pbox h1{
+  margin: 140px 140px 40px 140px;
+  font-family: ヒラギノ明朝 ProN;
+  font-weight: bold;
+  font-size: 300%;
+  text-align: center;
+  border-bottom: 3px solid;
+}
+.Pbox p{
+  font-size: 120%;
+  text-align: center;
+}
+.slide{
+  width: 220px;
+  float: left;
+  margin: 40px 10px;
+  text-align: left;
+  font-size: 30px;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 14px;
+  width: 200px;
+  border: solid 3px #777;
+}
+/* WebKit向けのつまみ */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #fff;
+  width: 24px;
+  height: 24px;
+}
+input[type="range"].R{
+  background: #c33;
+}
+input[type="range"].G{
+  background: #3c3;
+}
+input[type="range"].B{
+  background: #33c;
+}
+.P{
+  writing-mode: vertical-rl;
+  height: 280px;
+  font-size: 145%;
+  color: #888;
+  margin: 30px;
+}
+
+.wide{
+  width: 40%;
+  float: left;
+  height: 730px;
+}
+.CEN{
+    writing-mode: vertical-rl;
+    width: 20%;
+    float: left;
+    font-size: 60%;
+    height: 50%;
+}
+h5{
+  background-color: #c22;
+  text-align: center;
+  width: 70%;
+  height: 20px;
+  font-size: 160%;
+    box-shadow: 5px 5px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+.sankou{
+  margin-top: 360px;
+}
+.bunken{
+  margin-left: 45%;
+}
+.Col{
+  margin-left: 75%;
+}
+.Bmeika{
+  font-size: 100%;
+  color: #555;
+}
+.Cmeika{
+  font-size: 80%;
+  color: #848;
+      box-shadow: 5px 5px;
+}
+p.sub{
+  margin-left: 35%;
+  font-size: 130%;
+}

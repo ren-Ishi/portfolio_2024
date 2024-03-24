@@ -1,0 +1,230 @@
+/* all tag ----------------------------------------------------------------*/
+#nazoki_area {
+  position: fixed;
+  bottom:50px;
+  right: 50px;
+  z-index: 10;
+
+}
+
+@media screen and (max-width:780px){
+  #nazoki_area {
+    transform:scale(0.8);
+    bottom: 20px;
+    right: 20px;
+    transform-origin: right bottom;
+  }
+}
+
+@media screen and (max-width:340px){
+  #nazoki_area {
+    transform:scale(0.7);
+  }
+}
+
+circle.n_body,
+circle.n_beye,
+path.n_body,
+path.n_beye {
+  fill: #404040;
+}
+
+circle.n_weye {
+  fill: #eaeaea;
+}
+
+/* 01 -------------------------*/
+g.nazoki_01>circle.n_beye {
+  animation: nazo_01 5s infinite;
+}
+
+@keyframes nazo_01 {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+
+  10% {
+    transform: translateX(-2%) translateY(-2%);
+  }
+
+  20% {
+    transform: translateX(-2%) translateY(-2%);
+  }
+
+  30% {
+    transform: translateX(0) translateY(0);
+  }
+
+  60% {
+    transform: translateX(-3%) translateY(3%);
+  }
+
+  80% {
+    transform: translateX(2%)translateY(3%);
+  }
+
+  90% {
+    transform: translateX(0) translateY(0);
+  }
+
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+/* 02 -------------------------*/
+g.nazoki_02>circle.n_weye {
+  animation: nazo_02 4s infinite;
+}
+
+@keyframes nazo_02 {
+  0% {
+    opacity: 1;
+  }
+
+  18% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  22% {
+    opacity: 0;
+  }
+
+  22.5% {
+    opacity: 1;
+  }
+
+  54% {
+    opacity: 1;
+  }
+
+  56% {
+    opacity: 0;
+  }
+
+  58% {
+    opacity: 0;
+  }
+
+  58.5% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  62% {
+    opacity: 0;
+  }
+
+  64% {
+    opacity: 0;
+  }
+
+  64.5% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* 03 -------------------------*/
+g.nazoki_03>path.n_beye {
+  animation: nazo_03 2s infinite;
+  transform-origin: 60% 80%;
+}
+
+@keyframes nazo_03 {
+  0% {
+    transform: scale(0.9);
+  }
+
+  48% {
+    transform: scale(0.9);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  55% {
+    transform: scale(0.9);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  65% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+/* 04 -------------------------*/
+g.nazoki_04>circle.n_weye {
+  animation: nazo_041 8s infinite;
+}
+
+@keyframes nazo_041 {
+  0%{
+    transform:translateX(14%);
+  }
+  10%{
+    transform:translateX(6%);
+  }
+  20%{
+    transform:translateX(14%);
+  }
+  30%{
+    transform:translateX(14%);
+  }
+  33%{
+    transform:translateX(0);
+  }
+  60%{
+    transform:translateX(0);
+  }
+  90%{
+    transform:translateX(14%);
+  }
+  100%{
+    transform:translateX(14%);
+  }
+}
+
+g.nazoki_04>circle.n_beye {
+  animation: nazo_042 8s infinite;
+}
+
+@keyframes nazo_042 {
+  0%{
+    fill:#404040;
+    stroke: none;
+  }
+  60%{
+    fill:none;
+    stroke:#404040;
+    stroke-width:2;
+  }
+  80%{
+    fill:none;
+    stroke:#404040;
+    stroke-width:2;
+  }
+
+  100%{
+    stroke: none;
+    fill:#404040;
+  }
+}

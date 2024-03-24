@@ -1,0 +1,58 @@
+
+
+/* #top img:nth-child(1){
+  clip-path: circle(8vw at 68% 60%);
+}
+
+#top img:hover:nth-child(1) {
+  clip-path: circle(40vw at 68% 60%);
+  z-index: 1;
+  filter:grayscale(0%);
+}
+*/
+
+/* #top img:nth-child(2){
+  clip-path: circle(5vw at 23% 39%);
+}
+
+#top img:hover:nth-child(2) {
+  clip-path: circle(15vw at 23% 39%);
+  z-index: 1;
+
+} */
+
+
+
+/* entrance -------------------------*/
+#entrance {
+  height: 300px;
+  width: 100vw;
+  background-color: #404040;
+  margin: 200px auto 50px -50px;
+}
+
+#entrance p {
+  padding: 50px 0;
+  color: #eaeaea;
+  margin-left: 250px;
+}
+
+
+
+<p>
+ </p>
+
+
+<p>
+CLIP STUDIO PAINT PRO / Illustlator /
+ MagicaBoxel / Blender / Unity / 
+Google Site / WordPress / Wix / GarageBand / Cubase /
+Microsoft Office 
+</p>
+
+  {"title": "SPS", "caption": "#マルチゲーム", "imageUrl": "../gallery/thumbnail/sps.png", "link": "moreSite/sps.html"},
+  {"title": "学部紹介ポスター", "caption": "#ポスター #デザイン", "imageUrl": "../gallery/thumbnail/guide.png", "link": "moreSite/guide.html"},
+  {"title": "お菓子箱", "caption": "#工作 #パッケージデザイン", "imageUrl": "../gallery/thumbnail/guide.png", "link": "moreSite/guide.html"}
+    {"title": "地と図：皿のデザイン", "caption": "#3Dモデル #デザイン", "imageUrl": "../gallery/thumbnail/dish.png", "link": "moreSite/dish.html"},
+      {"title": "仮想実録 #01", "caption": "#イラスト #仮想実録", "imageUrl": "../gallery/thumbnail/kasou01.png", "link": "moreSite/kasou01.html"},
+
