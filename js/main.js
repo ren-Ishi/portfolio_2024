@@ -57,20 +57,12 @@ window.addEventListener('DOMContentLoaded', async () => {
     for (let i = 1; i <= totalPages; i++) {
       const pageButton = document.createElement('button');
       pageButton.textContent = i;
-      paginationContainer.appendChild(pageButton);
-    }
-
-    addPageButtonListeners(); // ページボタンのイベントリスナーを追加
-  }
-
-  function addPageButtonListeners() {
-    const pageButtons = document.querySelectorAll('#pagination button');
-    pageButtons.forEach((button, index) => {
-      button.addEventListener('click', () => {
-        currentPage = index + 1;
+      pageButton.addEventListener('click', () => {
+        currentPage = i;
         updatePageContent();
       });
-    });
+      paginationContainer.appendChild(pageButton);
+    }
   }
 
   function updatePageContent() {
@@ -82,6 +74,7 @@ window.addEventListener('DOMContentLoaded', async () => {
       top: 0,
       behavior: 'smooth'
     });
+    updatePageButtons();
   }
 
   function updateItemsPerPage() {
@@ -96,11 +89,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     updatePageContent();
   });
 
-  window.addEventListener('touchmove', function(e) {
-    e.preventDefault(); // スクロールを無効にする
-  }, { passive: false });
-
   updateItemsPerPage();
   updatePageContent();
-  updatePageButtons(); // ページボタンの更新
 });
