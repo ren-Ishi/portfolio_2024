@@ -1,3 +1,21 @@
+function updatePageContent(event) {
+  if (!event.target.closest('.box')) {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+
+  displayJsonData(startIndex, endIndex);
+  updatePageButtons();
+}
+
+window.addEventListener('scroll', updatePageContent);
+
+// 以下は既存のコードと同じです
 class PortfolioBox {
   constructor(title, caption, imageUrl, link) {
     this.title = title;
@@ -63,18 +81,6 @@ window.addEventListener('DOMContentLoaded', async () => {
       });
       paginationContainer.appendChild(pageButton);
     }
-  }
-
-  function updatePageContent() {
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-
-    displayJsonData(startIndex, endIndex);
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-    updatePageButtons();
   }
 
   function updateItemsPerPage() {

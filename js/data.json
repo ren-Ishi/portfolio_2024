@@ -3,12 +3,13 @@
   {"title": "Tokaido Clock", "caption": "#電子工作 #UI #Raspberry Pi", "imageUrl": "../gallery/thumbnail/tokaido.png", "link": "moreSite/tokaido.html"},
   {"title": "Recipe 和かるぼなぁら", "caption": "#デザイン #料理 #レイアウト", "imageUrl": "../gallery/thumbnail/recipe.png", "link": "moreSite/recipe.html"},
   {"title": "Auxilium 設定資料集", "caption": "#プロジェクト2023 #デザイン #レイアウト", "imageUrl": "../gallery/thumbnail/auxiliumBook.png", "link": "moreSite/auxiliumBook.html"},
-  {"title": "Auxilium UI", "caption": "#プロジェクト2023 #UI", "imageUrl": "../gallery/thumbnail/auxiliumUI.png", "link": "moreSite/auxiliumUI.html"},
-  {"title": "Auxilium プレイヤーデザイン", "caption": "#プロジェクト2023 #キャラクターデザイン", "imageUrl": "../gallery/thumbnail/auxiliumPlayer.png", "link": "moreSite/auxiliumPlayer.html"},
   {"title": "Auxilium BGM", "caption": "#プロジェクト2023 #音楽", "imageUrl": "../gallery/thumbnail/auxiliumBGM.png", "link": "moreSite/auxiliumBGM.html"},
   {"title": "Auxilium 3Dモデル", "caption": "#プロジェクト2023 #3Dモデル", "imageUrl": "../gallery/thumbnail/auxilium3D.png", "link": "moreSite/auxilium3D.html"},
   {"title": "KEYBOARD QUEST", "caption": "#ミニゲーム #デザイン #音楽", "imageUrl": "../gallery/thumbnail/keyboard.png", "link": "moreSite/keyboard.html"},
   {"title": "ESCAPE and", "caption": "#脱出ゲーム", "imageUrl": "../gallery/thumbnail/and.png", "link": "moreSite/and.html"},
-  {"title": "FOG", "caption": "#音響", "imageUrl": "../gallery/thumbnail/fog.png", "link": "moreSite/fog.html"}
+  {"title": "ハコニワトリ", "caption": "#パズルゲーム", "imageUrl": "../gallery/thumbnail/hako.png", "link": "moreSite/hako.html"},
+  {"title": "SPS", "caption": "#マルチゲーム", "imageUrl": "../gallery/thumbnail/sps.png", "link": "moreSite/sps.html"},
+  {"title": "FOG", "caption": "#音響", "imageUrl": "../gallery/thumbnail/fog.png", "link": "moreSite/fog.html"},
+  {"title": "地と図：皿のデザイン", "caption": "#3Dモデル #デザイン", "imageUrl": "../gallery/thumbnail/dish.png", "link": "moreSite/dish.html"}
 
 ]
