@@ -10,5 +10,7 @@
   {"title": "ハコニワトリ", "caption": "#パズルゲーム", "imageUrl": "../gallery/thumbnail/hako.png", "link": "moreSite/hako.html"},
   {"title": "FOG", "caption": "#音響", "imageUrl": "../gallery/thumbnail/f.png", "link": "moreSite/fog.html"},
   {"title": "地と図：皿のデザイン", "caption": "#3Dモデル #デザイン", "imageUrl": "../gallery/thumbnail/dish.png", "link": "moreSite/dish.html"},
-  {"title": "発表会パンフレット", "caption": "#イラスト", "imageUrl": "../gallery/thumbnail/pi.png", "link": "moreSite/piano.html"}
+  {"title": "発表会パンフレット", "caption": "#イラスト", "imageUrl": "../gallery/thumbnail/pi.png", "link": "moreSite/piano.html"},
+  {"title": "シナリオライティング", "caption": "#シナリオ", "imageUrl": "../gallery/thumbnail/sce.png", "link": "moreSite/scenario.html"}
+
 ]
