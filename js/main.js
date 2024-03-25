@@ -70,10 +70,10 @@ window.addEventListener('DOMContentLoaded', async () => {
     const endIndex = startIndex + itemsPerPage;
 
     displayJsonData(startIndex, endIndex);
-    // window.scrollTo({
-    //   top: 0,
-    //   behavior: 'smooth'
-    // });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
     updatePageButtons();
   }
 
@@ -86,7 +86,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
   window.addEventListener('resize', () => {
     updateItemsPerPage();
-    updatePageContent();
+    // updatePageContent();
   });
 
   updateItemsPerPage();
