@@ -8,8 +8,7 @@
   {"title": "KEYBOARD QUEST", "caption": "#ミニゲーム #デザイン #音楽", "imageUrl": "../gallery/thumbnail/keyboard.png", "link": "moreSite/keyboard.html"},
   {"title": "ESCAPE and", "caption": "#脱出ゲーム", "imageUrl": "../gallery/thumbnail/and.png", "link": "moreSite/and.html"},
   {"title": "ハコニワトリ", "caption": "#パズルゲーム", "imageUrl": "../gallery/thumbnail/hako.png", "link": "moreSite/hako.html"},
-  {"title": "SPS", "caption": "#マルチゲーム", "imageUrl": "../gallery/thumbnail/sps.png", "link": "moreSite/sps.html"},
-  {"title": "FOG", "caption": "#音響", "imageUrl": "../gallery/thumbnail/fog.png", "link": "moreSite/fog.html"},
-  {"title": "地と図：皿のデザイン", "caption": "#3Dモデル #デザイン", "imageUrl": "../gallery/thumbnail/dish.png", "link": "moreSite/dish.html"}
-
+  {"title": "FOG", "caption": "#音響", "imageUrl": "../gallery/thumbnail/f.png", "link": "moreSite/fog.html"},
+  {"title": "地と図：皿のデザイン", "caption": "#3Dモデル #デザイン", "imageUrl": "../gallery/thumbnail/dish.png", "link": "moreSite/dish.html"},
+  {"title": "発表会パンフレット", "caption": "#イラスト", "imageUrl": "../gallery/thumbnail/pi.png", "link": "moreSite/piano.html"}
 ]

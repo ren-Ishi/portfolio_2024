@@ -56,3 +56,4 @@ Microsoft Office
 
   {"title": "Auxilium UI", "caption": "#プロジェクト2023 #UI", "imageUrl": "../gallery/thumbnail/auxiliumUI.png", "link": "moreSite/auxiliumUI.html"},
   {"title": "Auxilium プレイヤーデザイン", "caption": "#プロジェクト2023 #キャラクターデザイン", "imageUrl": "../gallery/thumbnail/auxiliumPlayer.png", "link": "moreSite/auxiliumPlayer.html"},
+    {"title": "SPS", "caption": "#マルチゲーム", "imageUrl": "../gallery/thumbnail/sps.png", "link": "moreSite/sps.html"},
